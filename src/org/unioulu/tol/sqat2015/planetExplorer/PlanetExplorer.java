@@ -25,7 +25,7 @@ public class PlanetExplorer {
 		grid=new int[x][y];
 		
 		System.out.println("obstacles "+obstacles);
-		if(obstacles != null){
+		if(obstacles != ""){
 			String obsX = obstacles.substring(1,2);
 			System.out.println("obsX "+obsX);
 			String obsY = obstacles.substring(3,4);
