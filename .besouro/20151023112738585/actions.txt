@@ -275,3 +275,11 @@ UnitTestSessionAction 1445595700535 TestPlanetExplorer OK
 RefactoringAction 1445595716101 TestPlanetExplorer.java ADD void testGridAndEmptyexecuteCommand()/2 METHOD
 RefactoringAction 1445595718617 TestPlanetExplorer.java RENAME testGridAndEmptyexecuteCommand()/2=>void testGridAndEmptyexecuteCommand2() METHOD
 EditAction 1445595742321 TestPlanetExplorer.java 1719 6 24 9
+UnitTestCaseAction 1445595742741 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595742741 TestPlanetExplorer OK
+RefactoringAction 1445595763235 TestPlanetExplorer.java ADD void testGridAndEmptyexecuteCommand2()/2 METHOD
+RefactoringAction 1445595770751 TestPlanetExplorer.java RENAME testGridAndEmptyexecuteCommand2()/2=>void testGridAndexecuteCommand2() METHOD
+RefactoringAction 1445595773268 TestPlanetExplorer.java RENAME testGridAndexecuteCommand2()=>void testGridAndexecuteCommandr() METHOD
+RefactoringAction 1445595774784 TestPlanetExplorer.java RENAME testGridAndexecuteCommandr()=>void testGridAndexecuteCommand() METHOD
+RefactoringAction 1445595775799 TestPlanetExplorer.java RENAME testGridAndexecuteCommand()=>void testGridAndexecuteCommandR() METHOD
+EditAction 1445595905618 PlanetExplorer.java 2704 4 15 0
