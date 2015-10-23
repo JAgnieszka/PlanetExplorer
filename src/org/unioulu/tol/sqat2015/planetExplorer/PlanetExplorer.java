@@ -59,9 +59,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command.equals("")){
+//		if(command.equals("")){
 			result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
-		}
+//		}
 		
 		
 		return result;
