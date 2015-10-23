@@ -28,9 +28,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void testCreateGridXxYxNorth() {
 
-		PlanetExplorer planetE= new PlanetExplorer(0,0, "");
+		PlanetExplorer planetE= new PlanetExplorer(0,1, "");
 		
 		String gridSize=planetE.gridSize();
-		assertEquals("0x0",gridSize);
+		assertEquals("0x1",gridSize);
 	}
 }
