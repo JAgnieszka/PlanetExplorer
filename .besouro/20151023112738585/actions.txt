@@ -240,3 +240,7 @@ EditAction 1445595192952 PlanetExplorer.java 2471 4 13 0
 UnitTestCaseAction 1445595193296 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595193296 TestPlanetExplorer OK
 EditAction 1445595200647 PlanetExplorer.java 2510 4 13 0
+UnitTestCaseAction 1445595201040 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595201040 TestPlanetExplorer OK
+RefactoringAction 1445595247307 TestPlanetExplorer.java ADD void testGridAnd() METHOD
+EditAction 1445595249542 PlanetExplorer.java 2514 4 13 0
