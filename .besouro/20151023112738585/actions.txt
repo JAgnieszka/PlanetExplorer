@@ -94,3 +94,10 @@ EditAction 1445591151990 TestPlanetExplorer.java 796 3 9 3
 UnitTestCaseAction 1445591152339 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445591152339 TestPlanetExplorer FAIL
 EditAction 1445591197742 PlanetExplorer.java 1847 3 9 0
+UnitTestCaseAction 1445591198618 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591198618 TestPlanetExplorer FAIL
+RefactoringAction 1445591263179 TestPlanetExplorer.java REMOVE testCreateGridXxYxNorth() METHOD
+RefactoringAction 1445591273212 PlanetExplorer.java RENAME xPosition=>int xPositionEX FIELD
+RefactoringAction 1445591277727 PlanetExplorer.java RENAME yPosition=>int yPositionEX FIELD
+RefactoringAction 1445591280243 PlanetExplorer.java RENAME directionDefoult=>String directionDefoultEX FIELD
+EditAction 1445591480433 PlanetExplorer.java 1884 3 9 0
