@@ -42,6 +42,9 @@ public class PlanetExplorer {
 		
 		System.out.println("xx "+xx);
 		System.out.println("yy "+yy);
-		return null;
+		
+		String result= xx + "x"+ yy;
+		System.out.println("result "+result);
+		return result;
 	}
 }
