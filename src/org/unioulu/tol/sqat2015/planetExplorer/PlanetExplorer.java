@@ -6,6 +6,9 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private int [][]grid;
+	int xPosition=0;
+	int yPosition=0;
+	String directionDefoult="north";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
