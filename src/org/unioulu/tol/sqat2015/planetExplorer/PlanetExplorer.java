@@ -6,7 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private int [][]grid;
-	private int [][]tabX;
+//	private int [][]tabX;
 	int xPositionEX=0; //explorer
 	int yPositionEX=0;//explorer
 	String directionDefoultEX="north";//explorer
@@ -28,8 +28,8 @@ public class PlanetExplorer {
 		
 		String obsX = obstacles.substring(1,2);
 		System.out.println("obsX "+obsX);
-		String obsY = obstacles.substring(3,4);
-		System.out.println("obsY "+obsY);
+//		String obsY = obstacles.substring(3,4);
+//		System.out.println("obsY "+obsY);
 		
 	}
 	

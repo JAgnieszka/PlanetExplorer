@@ -141,3 +141,11 @@ RefactoringAction 1445592698534 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1445592699552 PlanetExplorer.java REMOVE TA FIELD
 RefactoringAction 1445592701569 PlanetExplorer.java ADD int FIELD
 EditAction 1445592707054 PlanetExplorer.java 2119 3 14 0
+UnitTestCaseAction 1445592707446 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592707447 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445592730535 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592730535 TestPlanetExplorer FAIL
+RefactoringAction 1445592769328 PlanetExplorer.java REMOVE tabX FIELD
+UnitTestCaseAction 1445592771643 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592771644 TestPlanetExplorer FAIL
+EditAction 1445592807777 PlanetExplorer.java 2125 3 12 0
