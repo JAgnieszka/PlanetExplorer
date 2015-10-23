@@ -28,8 +28,8 @@ public class PlanetExplorer {
 		grid=new int[x][y];
 		
 		System.out.println("obstacles "+obstacles);
-		if(obstacles.substring(0) == "("){
-		if(obstacles != ""){
+		
+		if(obstacles != "" && obstacles.substring(0) == "("){
 			obsX = obstacles.substring(1,obstacles.indexOf(","));
 			System.out.println("obsX "+obsX);
 			obsY = obstacles.substring(obstacles.indexOf(",")+1,obstacles.length()-1);
@@ -38,7 +38,7 @@ public class PlanetExplorer {
 		}else{
 			directionDefoultEX="north";
 		}
-		}
+		
 		
 	}
 	
