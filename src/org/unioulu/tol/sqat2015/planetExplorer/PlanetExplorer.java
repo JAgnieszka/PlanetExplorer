@@ -57,7 +57,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")){
-			result=directionDefoultEX;
+			result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
 		}
 		
 		
