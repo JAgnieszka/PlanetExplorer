@@ -294,3 +294,6 @@ RefactoringAction 1445595989983 TestPlanetExplorer.java RENAME testGridAndexecut
 RefactoringAction 1445595990999 TestPlanetExplorer.java RENAME testGridAndexecuteCommand()=>void testGridAndexecuteCommandL() METHOD
 EditAction 1445596108889 PlanetExplorer.java 2718 4 15 0
 EditAction 1445596109003 TestPlanetExplorer.java 2165 8 30 11
+UnitTestCaseAction 1445596109370 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596109370 TestPlanetExplorer OK
+EditAction 1445596170322 PlanetExplorer.java 2790 4 16 0

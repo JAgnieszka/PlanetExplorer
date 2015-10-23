@@ -37,9 +37,10 @@ public class PlanetExplorer {
 			obsY = obstacles.substring(obstacles.indexOf(",")+1,obstacles.length()-1);
 			System.out.println("obsY "+obsY);
 			
-		}else{
-			directionDefoultEX="N";
 		}
+//		else{
+//			directionDefoultEX="N";
+//		}
 		
 		
 	}
@@ -60,6 +61,9 @@ public class PlanetExplorer {
 			directionDefoultEX="N";
 		}if(command.equals("r")){
 			directionDefoultEX="E";
+			
+		}if(command.equals("l")){
+			directionDefoultEX="W";
 			
 		}
 		
