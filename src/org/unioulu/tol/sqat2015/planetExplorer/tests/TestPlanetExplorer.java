@@ -37,6 +37,17 @@ public class TestPlanetExplorer {
 		assertEquals("5,5",checkObstacles);
 	}
 	
+	@Test
+	public void testGridAndOneOdstacles2() {
+
+		PlanetExplorer planetE= new PlanetExplorer(17, 5, "(15,5)");
+		
+		String gridSize=planetE.gridSize();
+		assertEquals("17x5",gridSize);
+		
+		String checkObstacles=planetE.checkObstacles();
+		assertEquals("15,5",checkObstacles);
+	}
 	
 	
 }
