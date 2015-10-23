@@ -244,3 +244,4 @@ UnitTestCaseAction 1445595201040 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595201040 TestPlanetExplorer OK
 RefactoringAction 1445595247307 TestPlanetExplorer.java ADD void testGridAnd() METHOD
 EditAction 1445595249542 PlanetExplorer.java 2514 4 13 0
+EditAction 1445595249652 TestPlanetExplorer.java 1472 5 21 8
