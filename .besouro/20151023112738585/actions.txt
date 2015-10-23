@@ -225,3 +225,7 @@ EditAction 1445594878712 PlanetExplorer.java 2502 4 14 0
 UnitTestCaseAction 1445594879045 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594879045 TestPlanetExplorer FAIL
 EditAction 1445594909322 PlanetExplorer.java 2508 4 14 0
+UnitTestCaseAction 1445594909660 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594909660 TestPlanetExplorer FAIL
+RefactoringAction 1445594941702 TestPlanetExplorer.java REMOVE testGridAnd() METHOD
+EditAction 1445594943491 TestPlanetExplorer.java 1494 4 16 6
