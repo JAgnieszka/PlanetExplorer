@@ -25,12 +25,5 @@ public class TestPlanetExplorer {
 		assertEquals("100x100",gridSize);
 	}
 	
-	@Test
-	public void testCreateGridXxYxNorth() {
-
-		PlanetExplorer planetE= new PlanetExplorer(0,1, "");
-		
-		String gridSize=planetE.gridSize();
-		assertEquals("0x1",gridSize);
-	}
+	
 }

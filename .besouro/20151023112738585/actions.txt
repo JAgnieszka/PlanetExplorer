@@ -101,3 +101,4 @@ RefactoringAction 1445591273212 PlanetExplorer.java RENAME xPosition=>int xPosit
 RefactoringAction 1445591277727 PlanetExplorer.java RENAME yPosition=>int yPositionEX FIELD
 RefactoringAction 1445591280243 PlanetExplorer.java RENAME directionDefoult=>String directionDefoultEX FIELD
 EditAction 1445591480433 PlanetExplorer.java 1884 3 9 0
+EditAction 1445591480519 TestPlanetExplorer.java 611 2 6 2
