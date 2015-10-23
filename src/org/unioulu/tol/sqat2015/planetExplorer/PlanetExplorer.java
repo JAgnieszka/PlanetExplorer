@@ -23,6 +23,8 @@ public class PlanetExplorer {
 		
 		grid=new int[x][y];
 		
+		System.out.println();
+		
 		
 	}
 	
