@@ -248,3 +248,17 @@ EditAction 1445595249652 TestPlanetExplorer.java 1472 5 21 8
 UnitTestCaseAction 1445595250001 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445595250002 TestPlanetExplorer FAIL
 EditAction 1445595350573 TestPlanetExplorer.java 1469 5 21 8
+CompilationAction 1445595350710 TestPlanetExplorer.java
+UnitTestCaseAction 1445595352271 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595352271 TestPlanetExplorer FAIL
+RefactoringAction 1445595370592 TestPlanetExplorer.java RENAME testGridAnd()=>void testGridAndEmpty() METHOD
+RefactoringAction 1445595371606 TestPlanetExplorer.java RENAME testGridAndEmpty()=>void testGridAndEmptyexecuteCommand() METHOD
+CompilationAction 1445595374702 TestPlanetExplorer.java
+CompilationAction 1445595374735 TestPlanetExplorer.java
+UnitTestCaseAction 1445595376254 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595376255 TestPlanetExplorer.testGridAndEmptyexecuteCommand FAIL
+CompilationAction 1445595418110 TestPlanetExplorer.java
+UnitTestCaseAction 1445595418371 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595418371 TestPlanetExplorer FAIL
+RefactoringAction 1445595502789 PlanetExplorer.java ADD String result FIELD
+EditAction 1445595527211 PlanetExplorer.java 2604 4 14 0

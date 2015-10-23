@@ -9,9 +9,11 @@ public class PlanetExplorer {
 //	private int [][]tabX;
 	int xPositionEX=0; //explorer
 	int yPositionEX=0;//explorer
-	String directionDefoultEX="north";//explorer
+	String directionDefoultEX="N";//explorer
+	
 	String obsX=null;
 	String obsY=null;
+	String result=null;
 	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -54,8 +56,12 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		if(command.equals("")){
+			result=directionDefoultEX;
+		}
 		
-		return null;
+		
+		return result;
 	}
 
 	public String gridSize() {
