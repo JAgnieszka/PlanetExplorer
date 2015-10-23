@@ -5,7 +5,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	private int [][]grid=new int[1][1];
+	private int [][]grid;
 	int xPosition=0;
 	int yPosition=0;
 	String directionDefoult="north";
