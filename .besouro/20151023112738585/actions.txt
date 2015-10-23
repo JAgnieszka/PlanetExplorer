@@ -49,3 +49,6 @@ RefactoringAction 1445590378165 TestPlanetExplorer.java RENAME testCreateGrid()/
 RefactoringAction 1445590379677 TestPlanetExplorer.java RENAME testCreateGrid100()=>void testCreateGrid100x() METHOD
 RefactoringAction 1445590381690 TestPlanetExplorer.java RENAME testCreateGrid100x()=>void testCreateGrid100x100() METHOD
 EditAction 1445590398244 TestPlanetExplorer.java 605 2 6 2
+UnitTestCaseAction 1445590398612 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590398612 TestPlanetExplorer OK
+EditAction 1445590416422 PlanetExplorer.java 1772 3 6 0

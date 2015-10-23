@@ -160,3 +160,5 @@
 1445590359214 test-first 1 1500 true
 1445590359215 test-first 1 1500 true
 1445590359216 test-first 1 1500 true
+1445590398612 test-addition 1 24 true
+1445590398613 test-addition 1 24 true
