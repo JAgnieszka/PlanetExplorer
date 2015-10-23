@@ -70,7 +70,10 @@ public class PlanetExplorer {
 			directionDefoultEX="N";
 			yPositionEX=1;
 		}
-		
+		if(command.equals("b")){
+			directionDefoultEX="N";
+			xPositionEX=1;
+		}
 		
 		return result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
 	}
