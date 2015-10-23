@@ -37,9 +37,6 @@ public class PlanetExplorer {
 			obsY = obstacles.substring(obstacles.indexOf(",")+1,obstacles.length()-1);
 			System.out.println("obsY "+obsY);
 			
-		}if(obstacles.equals("r")){
-			directionDefoultEX="E";
-			
 		}else{
 			directionDefoultEX="N";
 		}
@@ -59,12 +56,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-//		if(command.equals("")){
-			result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
-//		}
+		if(command.equals("")){
+			directionDefoultEX="N";
+		}if(command.equals("r")){
+			directionDefoultEX="E";
+			
+		}
 		
 		
-		return result;
+		return result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
 	}
 
 	public String gridSize() {
