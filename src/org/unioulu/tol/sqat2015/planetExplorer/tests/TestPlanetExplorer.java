@@ -57,8 +57,8 @@ public class TestPlanetExplorer {
 		String gridSize=planetE.gridSize();
 		assertEquals("17x5",gridSize);
 		
-		String checkObstacles=planetE.checkObstacles();
-		assertEquals("15,5",checkObstacles);
+		String executeCommand=executeCommand("");
+		assertEquals("(0,0,N)",executeCommand);
 	}
 	
 }
