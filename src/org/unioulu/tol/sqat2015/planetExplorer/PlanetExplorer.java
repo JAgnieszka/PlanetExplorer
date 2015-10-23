@@ -69,6 +69,6 @@ public class PlanetExplorer {
 	public String checkObstacles() {
 		System.out.println("obsX "+obsX);
 		System.out.println("obsY "+obsY);
-		return null;
+		return obsX+","+obsY;
 	}
 }

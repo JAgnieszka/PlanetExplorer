@@ -168,3 +168,6 @@ RefactoringAction 1445593418074 PlanetExplorer.java ADD String obsX/2 FIELD
 RefactoringAction 1445593423604 PlanetExplorer.java RENAME obsX/2=>String obs FIELD
 RefactoringAction 1445593424621 PlanetExplorer.java RENAME obs=>String obsY FIELD
 EditAction 1445593458266 PlanetExplorer.java 2367 4 14 0
+UnitTestCaseAction 1445593458620 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593458620 TestPlanetExplorer OK
+EditAction 1445593524058 PlanetExplorer.java 2376 4 14 0
