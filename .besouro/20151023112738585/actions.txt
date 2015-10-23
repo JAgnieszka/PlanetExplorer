@@ -52,3 +52,31 @@ EditAction 1445590398244 TestPlanetExplorer.java 605 2 6 2
 UnitTestCaseAction 1445590398612 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445590398612 TestPlanetExplorer OK
 EditAction 1445590416422 PlanetExplorer.java 1772 3 6 0
+UnitTestCaseAction 1445590419126 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590419126 TestPlanetExplorer OK
+RefactoringAction 1445590794850 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445590796365 PlanetExplorer.java RENAME x=>int xP FIELD
+RefactoringAction 1445590797881 PlanetExplorer.java RENAME xP=>int xPosi FIELD
+RefactoringAction 1445590804896 PlanetExplorer.java RENAME xPosi=>int xCoo FIELD
+RefactoringAction 1445590806911 PlanetExplorer.java RENAME xCoo=>int x FIELD
+RefactoringAction 1445590809926 PlanetExplorer.java RENAME x=>int xPosition FIELD
+RefactoringAction 1445590820007 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445590821518 PlanetExplorer.java RENAME y=>int yPo FIELD
+RefactoringAction 1445590823030 PlanetExplorer.java RENAME yPo=>int yPosit FIELD
+RefactoringAction 1445590826045 PlanetExplorer.java RENAME yPosit=>int yPosition FIELD
+RefactoringAction 1445590856664 PlanetExplorer.java ADD String direct FIELD
+RefactoringAction 1445590864679 PlanetExplorer.java RENAME direct=>String direction FIELD
+RefactoringAction 1445590867696 PlanetExplorer.java RENAME direction=>String directionDefou FIELD
+RefactoringAction 1445590868713 PlanetExplorer.java RENAME directionDefou=>String directionDefoult FIELD
+RefactoringAction 1445590945322 TestPlanetExplorer.java ADD void testCreateGrid100x100()/2 METHOD
+RefactoringAction 1445590952836 TestPlanetExplorer.java RENAME testCreateGrid100x100()/2=>void testCreateGridNux100() METHOD
+RefactoringAction 1445590954345 TestPlanetExplorer.java RENAME testCreateGridNux100()=>void testCreateGridx100() METHOD
+RefactoringAction 1445590955859 TestPlanetExplorer.java RENAME testCreateGridx100()=>void testCreateGridNx100() METHOD
+RefactoringAction 1445590957373 TestPlanetExplorer.java RENAME testCreateGridNx100()=>void testCreateGridx100() METHOD
+RefactoringAction 1445590958887 TestPlanetExplorer.java RENAME testCreateGridx100()=>void testCreateGridDex100() METHOD
+RefactoringAction 1445590959900 TestPlanetExplorer.java RENAME testCreateGridDex100()=>void testCreateGridx100() METHOD
+RefactoringAction 1445590961914 TestPlanetExplorer.java RENAME testCreateGridx100()=>void testCreateGridXx100() METHOD
+RefactoringAction 1445590966928 TestPlanetExplorer.java RENAME testCreateGridXx100()=>void testCreateGridXxY() METHOD
+RefactoringAction 1445590970941 TestPlanetExplorer.java RENAME testCreateGridXxY()=>void testCreateGridXxYx() METHOD
+RefactoringAction 1445590972956 TestPlanetExplorer.java RENAME testCreateGridXxYx()=>void testCreateGridXxYxNorth() METHOD
+EditAction 1445591027684 TestPlanetExplorer.java 796 3 9 3
