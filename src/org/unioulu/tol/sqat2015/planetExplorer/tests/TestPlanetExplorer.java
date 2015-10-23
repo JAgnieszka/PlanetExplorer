@@ -73,7 +73,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testGridAndexecuteCommandR() {
 
-		PlanetExplorer planetE= new PlanetExplorer(20, 20, "r");
+		PlanetExplorer planetE= new PlanetExplorer(20, 20, "");
 		
 		String executeCommand=planetE.executeCommand("r");
 		assertEquals("(0,0,E)",executeCommand);
@@ -82,9 +82,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void testGridAndexecuteCommandL() {
 
-		PlanetExplorer planetE= new PlanetExplorer(20, 20, "l");
+		PlanetExplorer planetE= new PlanetExplorer(20, 20, "");
 		
-		String executeCommand=planetE.executeCommand("r");
-		assertEquals("(0,0,E)",executeCommand);
+		String executeCommand=planetE.executeCommand("l");
+		assertEquals("(0,0,W)",executeCommand);
 	}
 }
