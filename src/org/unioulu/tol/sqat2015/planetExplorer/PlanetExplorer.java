@@ -6,6 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private int [][]grid;
+	private int [][]tabX;
 	int xPositionEX=0; //explorer
 	int yPositionEX=0;//explorer
 	String directionDefoultEX="north";//explorer

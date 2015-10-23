@@ -133,3 +133,11 @@ EditAction 1445592600294 PlanetExplorer.java 2095 3 14 0
 UnitTestCaseAction 1445592602340 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445592602340 TestPlanetExplorer FAIL
 EditAction 1445592619645 PlanetExplorer.java 2095 3 14 0
+RefactoringAction 1445592642465 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445592694485 PlanetExplorer.java RENAME grid/2=>int FIELD
+RefactoringAction 1445592696000 PlanetExplorer.java RENAME TAB=>int FIELD
+RefactoringAction 1445592697517 PlanetExplorer.java REMOVE TABx FIELD
+RefactoringAction 1445592698534 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445592699552 PlanetExplorer.java REMOVE TA FIELD
+RefactoringAction 1445592701569 PlanetExplorer.java ADD int FIELD
+EditAction 1445592707054 PlanetExplorer.java 2119 3 14 0
