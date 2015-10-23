@@ -102,3 +102,15 @@ RefactoringAction 1445591277727 PlanetExplorer.java RENAME yPosition=>int yPosit
 RefactoringAction 1445591280243 PlanetExplorer.java RENAME directionDefoult=>String directionDefoultEX FIELD
 EditAction 1445591480433 PlanetExplorer.java 1884 3 9 0
 EditAction 1445591480519 TestPlanetExplorer.java 611 2 6 2
+UnitTestCaseAction 1445591481667 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591481668 TestPlanetExplorer OK
+RefactoringAction 1445592162986 TestPlanetExplorer.java ADD void testCreateGrid100x100()/2 METHOD
+RefactoringAction 1445592170000 TestPlanetExplorer.java RENAME testCreateGrid100x100()/2=>void testGrid100x100() METHOD
+RefactoringAction 1445592175514 TestPlanetExplorer.java RENAME testGrid100x100()=>void testGrid() METHOD
+RefactoringAction 1445592183028 TestPlanetExplorer.java RENAME testGrid()=>void testGridA() METHOD
+RefactoringAction 1445592184040 TestPlanetExplorer.java RENAME testGridA()=>void testGridAnd() METHOD
+RefactoringAction 1445592186053 TestPlanetExplorer.java RENAME testGridAnd()=>void testGridAndO() METHOD
+RefactoringAction 1445592187067 TestPlanetExplorer.java RENAME testGridAndO()=>void testGridAndOne() METHOD
+RefactoringAction 1445592194080 TestPlanetExplorer.java RENAME testGridAndOne()=>void testGridAndOneO() METHOD
+RefactoringAction 1445592197594 TestPlanetExplorer.java RENAME testGridAndOneO()=>void testGridAndOneOdstacles() METHOD
+EditAction 1445592325592 TestPlanetExplorer.java 807 3 9 3
