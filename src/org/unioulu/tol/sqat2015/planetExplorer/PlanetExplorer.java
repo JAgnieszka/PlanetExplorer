@@ -10,7 +10,8 @@ public class PlanetExplorer {
 	int xPositionEX=0; //explorer
 	int yPositionEX=0;//explorer
 	String directionDefoultEX="north";//explorer
-	
+	String obsX=null;
+	String obsY=null;
 	public PlanetExplorer(int x, int y, String obstacles){
 		
 		
@@ -63,5 +64,11 @@ public class PlanetExplorer {
 		String result= xx + "x"+ yy;
 		System.out.println("result "+result);
 		return result;
+	}
+
+	public String checkObstacles() {
+		System.out.println("obsX "+obsX);
+		System.out.println("obsY "+obsY);
+		return null;
 	}
 }

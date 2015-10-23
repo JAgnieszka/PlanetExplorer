@@ -159,3 +159,12 @@ UnitTestCaseAction 1445592937339 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445592937340 TestPlanetExplorer OK
 EditAction 1445593371258 PlanetExplorer.java 2199 3 11 0
 EditAction 1445593371347 TestPlanetExplorer.java 866 3 10 3
+CompilationAction 1445593371478 TestPlanetExplorer.java
+UnitTestCaseAction 1445593372792 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593372793 TestPlanetExplorer FAIL
+RefactoringAction 1445593380042 PlanetExplorer.java ADD String checkObstacles() METHOD
+RefactoringAction 1445593409012 PlanetExplorer.java ADD String obsX FIELD
+RefactoringAction 1445593418074 PlanetExplorer.java ADD String obsX/2 FIELD
+RefactoringAction 1445593423604 PlanetExplorer.java RENAME obsX/2=>String obs FIELD
+RefactoringAction 1445593424621 PlanetExplorer.java RENAME obs=>String obsY FIELD
+EditAction 1445593458266 PlanetExplorer.java 2367 4 14 0
