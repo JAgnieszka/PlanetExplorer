@@ -9,13 +9,16 @@ public class PlanetExplorer {
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
-		grid=new int[x][y];
+		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		grid=new int[x][y];
+		
+		
 	}
 	
 	public String executeCommand(String command){
@@ -34,7 +37,10 @@ public class PlanetExplorer {
 	}
 
 	public String gridSize() {
-		// TODO Auto-generated method stub
+		String xx=Integer.toString(grid.length); //get x and convert to string
+		String yy=Integer.toString(grid.length); //get x and convert to string
+		
+		System.out.println("xx "+xx);
 		return null;
 	}
 }

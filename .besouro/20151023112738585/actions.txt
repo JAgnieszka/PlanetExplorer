@@ -16,3 +16,10 @@ RefactoringAction 1445589691126 PlanetExplorer.java RENAME tab=>int FIELD
 RefactoringAction 1445589692139 PlanetExplorer.java RENAME gri=>int FIELD
 RefactoringAction 1445589693654 PlanetExplorer.java RENAME grig=>int FIELD
 EditAction 1445589698101 PlanetExplorer.java 1492 3 3 0
+CompilationAction 1445589821595 PlanetExplorer.java
+UnitTestCaseAction 1445589824942 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445589824943 TestPlanetExplorer FAIL
+CompilationAction 1445589842139 PlanetExplorer.java
+UnitTestCaseAction 1445589842405 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445589842406 TestPlanetExplorer FAIL
+EditAction 1445590132005 PlanetExplorer.java 1651 3 6 0
