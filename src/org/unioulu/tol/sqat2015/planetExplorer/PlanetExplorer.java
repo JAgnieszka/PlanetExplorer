@@ -23,7 +23,7 @@ public class PlanetExplorer {
 		
 		grid=new int[x][y];
 		
-		System.out.println();
+		System.out.println("obstacles "+obstacles);
 		
 		
 	}
