@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testCreateGrid() {
 
-		PlanetExplorer planetE= new PlanetExplorer(10, 10, "");
+		PlanetExplorer planetE= new PlanetExplorer(10, 5, "");
 		
 		String gridSize=planetE.gridSize();
 		assertEquals("10x10",gridSize);
