@@ -12,6 +12,8 @@ public class PlanetExplorer {
 	String directionDefoultEX="north";//explorer
 	String obsX=null;
 	String obsY=null;
+	
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
 		
@@ -26,6 +28,7 @@ public class PlanetExplorer {
 		grid=new int[x][y];
 		
 		System.out.println("obstacles "+obstacles);
+		if(obstacles.substring(1) == "("){
 		if(obstacles != ""){
 			obsX = obstacles.substring(1,obstacles.indexOf(","));
 			System.out.println("obsX "+obsX);
@@ -36,7 +39,7 @@ public class PlanetExplorer {
 			directionDefoultEX="north";
 		}
 
-		
+		=
 	}
 	
 	public String executeCommand(String command){
