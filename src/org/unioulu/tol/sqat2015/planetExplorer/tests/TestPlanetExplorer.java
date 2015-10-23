@@ -13,6 +13,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetE= new PlanetExplorer(10, 5, "");
 		
 		String gridSize=planetE.gridSize();
-		assertEquals("10x10",gridSize);
+		assertEquals("10x5",gridSize);
 	}
 }
