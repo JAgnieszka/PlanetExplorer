@@ -25,11 +25,14 @@ public class PlanetExplorer {
 		grid=new int[x][y];
 		
 		System.out.println("obstacles "+obstacles);
-		
-		String obsX = obstacles.substring(1,2);
-		System.out.println("obsX "+obsX);
-//		String obsY = obstacles.substring(3,4);
-//		System.out.println("obsY "+obsY);
+		if(obstacles != null){
+			String obsX = obstacles.substring(1,2);
+			System.out.println("obsX "+obsX);
+			String obsY = obstacles.substring(3,4);
+			System.out.println("obsY "+obsY);
+			
+		}
+
 		
 	}
 	
