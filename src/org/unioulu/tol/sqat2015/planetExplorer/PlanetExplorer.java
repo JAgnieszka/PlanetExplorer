@@ -38,7 +38,7 @@ public class PlanetExplorer {
 			System.out.println("obsY "+obsY);
 			
 		}else{
-			directionDefoultEX="north";
+			directionDefoultEX="N";
 		}
 		
 		
