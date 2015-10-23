@@ -38,9 +38,10 @@ public class PlanetExplorer {
 
 	public String gridSize() {
 		String xx=Integer.toString(grid.length); //get x and convert to string
-		String yy=Integer.toString(grid.length); //get x and convert to string
+		String yy=Integer.toString(grid[0].length); //get x and convert to string
 		
 		System.out.println("xx "+xx);
+		System.out.println("yy "+yy);
 		return null;
 	}
 }
