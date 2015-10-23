@@ -27,7 +27,7 @@ public class PlanetExplorer {
 		
 		String obsX = obstacles.substring(1,2);
 		System.out.println("obsX "+obsX);
-		String obsY = obstacles.substring(2,3);
+		String obsY = obstacles.substring(3,4);
 		System.out.println("obsY "+obsY);
 		
 	}
