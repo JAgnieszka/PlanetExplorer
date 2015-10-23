@@ -87,4 +87,14 @@ public class TestPlanetExplorer {
 		String executeCommand=planetE.executeCommand("l");
 		assertEquals("(0,0,W)",executeCommand);
 	}
+	
+	@Test
+	public void testGridAndexecuteCommandF() {
+
+		PlanetExplorer planetE= new PlanetExplorer(20, 20, "");
+		
+		String executeCommand=planetE.executeCommand("f");
+		assertEquals("(0,1,N)",executeCommand);
+	}
+	
 }
