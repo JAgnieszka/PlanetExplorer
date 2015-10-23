@@ -28,7 +28,7 @@ public class PlanetExplorer {
 		grid=new int[x][y];
 		
 		System.out.println("obstacles "+obstacles);
-		if(obstacles.substring(1) == "("){
+		if(obstacles.substring(0) == "("){
 		if(obstacles != ""){
 			obsX = obstacles.substring(1,obstacles.indexOf(","));
 			System.out.println("obsX "+obsX);
