@@ -66,6 +66,10 @@ public class PlanetExplorer {
 			directionDefoultEX="W";
 			
 		}
+		if(command.equals("f")){
+			directionDefoultEX="N";
+			yPositionEX="1";
+		}
 		
 		
 		return result="("+xPositionEX+","+yPositionEX+","+directionDefoultEX+")";
