@@ -38,8 +38,8 @@ public class PlanetExplorer {
 		}else{
 			directionDefoultEX="north";
 		}
-
-		=
+		}
+		
 	}
 	
 	public String executeCommand(String command){
