@@ -31,6 +31,8 @@ public class PlanetExplorer {
 			String obsY = obstacles.substring(3,4);
 			System.out.println("obsY "+obsY);
 			
+		}else{
+			directionDefoultEX="north";
 		}
 
 		
