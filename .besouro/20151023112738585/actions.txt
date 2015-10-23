@@ -200,3 +200,4 @@ UnitTestSessionAction 1445594085018 TestPlanetExplorer OK
 RefactoringAction 1445594173030 TestPlanetExplorer.java ADD void testGridAndOneOdstacles2()/2 METHOD
 RefactoringAction 1445594179539 TestPlanetExplorer.java RENAME testGridAndOneOdstacles2()/2=>void testGridAnd() METHOD
 EditAction 1445594728739 PlanetExplorer.java 2472 4 11 0
+EditAction 1445594728856 TestPlanetExplorer.java 1472 5 21 8
